@@ -10,6 +10,11 @@ ul  {
     padding: 0;
 }
 
+/* Display all list items on the one line */
+li  {
+    display: inline;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #03fc5e;
