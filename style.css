@@ -1,3 +1,8 @@
+/* Add a border to the navigation div */
+.topnav {
+    border: 1px solid #555;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #03fc5e;
