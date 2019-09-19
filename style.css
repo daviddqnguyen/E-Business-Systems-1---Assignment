@@ -3,6 +3,13 @@
     border-bottom: 1px solid #555;
 }
 
+/* Remove the bullets, margin and padding from the list */
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #03fc5e;
