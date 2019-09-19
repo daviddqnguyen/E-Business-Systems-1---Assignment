@@ -11,7 +11,7 @@
 }
 
 /* Display all list items on the one line */
-li  {
+.linav  {
     display: inline;
 }
 
