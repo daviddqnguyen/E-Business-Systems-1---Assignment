@@ -3,6 +3,10 @@
     border-bottom: 1px solid #555;
 }
 
+#ffflogo {
+    height: 20%;
+}
+
 /* Remove the bullets, margin and padding from the nav list */
 .ulnav  {
     list-style-type: none;
