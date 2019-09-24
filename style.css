@@ -29,3 +29,8 @@
 p   {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Test the use of the Google Font, Oswald */
+h1  {
+    font-family: 'Oswald', sans-serif;
+}
