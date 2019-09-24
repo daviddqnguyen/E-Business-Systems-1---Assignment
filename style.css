@@ -26,6 +26,10 @@
     color: black;
 }
 
+.topnav .search-container {
+    float: right;
+}
+
 /* Test the use of the Google Font, Open Sans */
 p   {
     font-family: 'Open Sans', sans-serif;
