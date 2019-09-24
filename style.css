@@ -24,3 +24,8 @@
     background-color: #03fc5e;
     color: black;
 }
+
+/* Test the use of the Google Font, Open Sans */
+p   {
+    font-family: 'Open Sans', sans-serif;
+}
