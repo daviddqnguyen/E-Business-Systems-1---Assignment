@@ -51,6 +51,11 @@ h1  {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Use of the Google Font, Oswald */
+h2  {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Define the footer */
 .footer {
     border-top: 1px #ccc solid;
