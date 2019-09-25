@@ -35,8 +35,9 @@
 
 }
 
-.container-1 div{
-    border: 1px #ccc solid;
+.container-1 div {
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
     padding: 10px;
 }
 
@@ -48,4 +49,10 @@ p   {
 /* Test the use of the Google Font, Oswald */
 h1  {
     font-family: 'Oswald', sans-serif;
+}
+
+/* Define the footer */
+.footer {
+    border-top: 1px #ccc solid;
+    padding: 10px;
 }
