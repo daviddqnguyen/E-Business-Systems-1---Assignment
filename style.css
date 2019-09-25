@@ -32,10 +32,13 @@
 
 /* Define the flex container */
 .container-1  {
-    display: flex; /* or inline-flex */
+
 }
 
-
+.container-1 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
 
 /* Test the use of the Google Font, Open Sans */
 p   {
