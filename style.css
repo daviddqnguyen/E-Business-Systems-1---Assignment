@@ -5,6 +5,7 @@
     border-bottom: 1px solid #555;
 }
 
+/* Style the FoodFitFast logo */
 #ffflogo {
     height: 20%;
 }
@@ -15,15 +16,49 @@
     color: black;
 }
 
+/* Style the subnav-content */
+.subnav-content {
+    display: none;
+}
+
+/* Open subnav content on mouse hover over the subnav container */
+.subnav:hover .subnav-content {
+    display: block;
+}
+
 .topnav .search-container {
     float: right;
 }
 
-
+/* Style the flexbox container */
 .container-1 div {
     border-top: 1px #ccc solid;
     border-bottom: 1px #ccc solid;
     padding: 10px;
+}
+
+/* Style the h1 tag of box-1 */
+.box-1 h1 {
+    text-align: center;
+}
+
+/* Style the p tag of box-2 */
+.box-2 p {
+    text-align: center;
+}
+
+/* Style the img tag of box-3 */
+.box-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the button tags of box-4 */
+.box-4 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Test the use of the Google Font, Open Sans */
@@ -41,8 +76,13 @@ h2  {
     font-family: 'Oswald', sans-serif;
 }
 
-/* Define the footer */
+/* Style the footer */
 .footer {
     border-top: 1px #ccc solid;
     padding: 10px;
+}
+
+/* Style the p tags of the footer */
+.footer p {
+    text-align: center;
 }
