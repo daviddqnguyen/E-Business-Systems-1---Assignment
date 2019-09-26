@@ -5,6 +5,11 @@
     border-bottom: 1px solid #555;
 }
 
+/* Style the topnav-box-1 */
+.topnav-box-1 img {
+    object-fit: cover;
+}
+
 /* Style the FoodFitFast logo */
 #ffflogo {
     height: 20%;
@@ -88,16 +93,32 @@
 /* Test the use of the Google Font, Open Sans */
 p   {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 /* Test the use of the Google Font, Oswald */
 h1  {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 /* Use of the Google Font, Oswald */
 h2  {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/* Style the h3 tags */
+h3  {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/* Style the table */
+table {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    font-size: 22px;
 }
 
 /* Style the footer */
