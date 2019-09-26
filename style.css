@@ -1,5 +1,6 @@
 /* Add a border to the navigation div */
 .topnav {
+    display: flex;
     height: 25%;
     border-bottom: 1px solid #555;
 }
@@ -28,11 +29,6 @@
 
 .topnav .search-container {
     float: right;
-}
-
-/* Define the flex container */
-.container-1  {
-
 }
 
 .container-1 div {
