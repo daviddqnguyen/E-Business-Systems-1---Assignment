@@ -9,18 +9,6 @@
     height: 20%;
 }
 
-/* Remove the bullets, margin and padding from the nav list */
-.ulnav  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Display all list items on the one line */
-.linav  {
-    display: inline;
-}
-
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #03fc5e;
@@ -30,6 +18,7 @@
 .topnav .search-container {
     float: right;
 }
+
 
 .container-1 div {
     border-top: 1px #ccc solid;
