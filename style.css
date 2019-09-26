@@ -121,6 +121,46 @@ table {
     font-size: 22px;
 }
 
+/* Style the h2 tag of calendar-h */
+.calendar-h h2 {
+    text-align: left;
+}
+
+/* Style the td of calendar-tw */
+.calendar-tw td{
+    font-size: 18px;
+}
+
+/* Style the th for "this week" attribute of table-time */
+[table-time="this week"] th {
+    background-color: #8DC63F;
+}
+
+/* Style the header attribute of table-info */
+[table-info="header"] {
+    font-weight: bold;
+}
+
+/* Style the th for "this month" attribute of table-time */
+[table-time="this month"] th {
+    background-color: #8DC63F;
+}
+
+/* Style calendar-tm */
+.calendar-tm {
+    table-layout: fixed;
+    width: 1190px;
+}
+
+/* Style calendar-tm */
+.calendar-tm td{
+    table-layout: fixed;
+    width: 170px;
+    height: 120px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
 /* Style the footer */
 .footer {
     border-top: 1px #ccc solid;
