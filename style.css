@@ -54,8 +54,32 @@
     margin-right: auto;
 }
 
-/* Style the button tags of box-4 */
-.box-4 button {
+/* Style the h2 tag of box-4 */
+.box-4 h2 {
+    text-align: center;
+}
+
+/* Style the img tag of box-4 */
+.box-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the h2 tag of box-5 */
+.box-5 h2 {
+    text-align: center;
+}
+
+/* Style the img tag of box-5 */
+.box-5 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the button tags of the account-box */
+.account-box button {
     display: block;
     margin-left: auto;
     margin-right: auto;
