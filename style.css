@@ -185,6 +185,11 @@ a:hover {
     text-align: center;
 }
 
+/* Zoom p tags of jim-training-box */
+.jim-training-box:hover p{
+    transform: scale(1.25);
+}
+
 /* Style the img tag of box-5 */
 .box-5 img {
     display: block;
@@ -195,6 +200,20 @@ a:hover {
 /* Style the box-6 container */
 .box-6 {
     background-color: #ededed;
+}
+
+/* Style the box-8 container */
+.box-8 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the box-9 container */
+.box-9 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style the buttons */
