@@ -5,34 +5,63 @@
     border-bottom: 1px solid #555;
 }
 
+/* Styling the links */
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style visited links */
+a:visited {
+    color: #1a1a1a;
+}
+
+/* Style hovered links */
+a:hover {
+    color: #00c2c4;
+}
+
+
 /* Style the topnav-box-1 */
+.topnav-box-1 {
+    height: 10%;
+}
+
+/* Style the topnav-box-1 img */
 .topnav-box-1 img {
+    
     object-fit: cover;
+}
+
+/* Style the topnav search-container */
+.topnav .search-container {
+    float: right;
 }
 
 /* Style the FoodFitFast logo */
 #ffflogo {
-    height: 20%;
+    height: 50;
+    width: 50;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #03fc5e;
-    color: black;
-}
-
-/* Style the subnav-content */
-.subnav-content {
+/* Style the subnav-content-1 */
+.subnav-content-1 {
     display: none;
 }
 
-/* Open subnav content on mouse hover over the subnav container */
-.subnav:hover .subnav-content {
+/* Style the subnav-content-2 */
+.subnav-content-2 {
+    display: none;
+}
+
+/* Open subnav-content-1 on mouse hover over the subnav container */
+.subnav:hover .subnav-content-1 {
     display: block;
 }
 
-.topnav .search-container {
-    float: right;
+/* Open subnav-content-2 on mouse hover over the subnav-content-1 container */
+.subnav-content-1:hover .subnav-content-2 {
+    display: block;
 }
 
 /* Style the flexbox container */
@@ -67,8 +96,14 @@
     background-color: #8DC63F;
 }
 
+/* Style calendar-tw */
+.calendar-tw {
+    background-color: #ededed;
+}
+
 /* Style calendar-tm */
 .calendar-tm {
+    background-color: #ededed;
     table-layout: fixed;
     width: 1190px;
 }
@@ -87,6 +122,11 @@
     text-align: center;
 }
 
+/* Style the box-2 container */
+.box-2 {
+    background-color: #ededed;
+}
+
 /* Style the p tag of box-2 */
 .box-2 p {
     text-align: center;
@@ -98,6 +138,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Style the box-4 container */
+.box-4 {
+    background-color: #ededed;
+}
+
 
 /* Style the h2 tag of box-4 */
 .box-4 h2 {
@@ -121,6 +167,31 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Style the box-6 container */
+.box-6 {
+    background-color: #ededed;
+}
+
+/* Style the buttons */
+button {
+    background-color: #3dff6a;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 15px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+/* Style hovered buttons */
+button:hover {
+    color: #00c2c4;
+}
+
+/* Hover behaviour on button */
+button:hover {
+    cursor: pointer;
 }
 
 /* Style the button tags of the account-box */
@@ -159,6 +230,11 @@ table {
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     font-size: 22px;
+}
+
+/* Style the account-box div */
+.account-box {
+    background-color: #ededed;
 }
 
 /* Style the footer */
