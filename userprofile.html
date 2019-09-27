@@ -43,15 +43,114 @@
             </form>
         </div>
     </div>
-<h1>User profile</h1>
-<h2>Welcome back Dave!</h2>
-<div style="float:center; text-align:center">
-    <img src="images/userpic.jpg" alt="user profile picture" width="100" height="150">
-    <h2>Dave Smith</h3><p></p>
-    <h2>Goal: Build Muscle</h4><p></p>
-    <h2>Current weight: 70KG</h4><p></p>
-    <button onclick="window.location.href = 'usersettings.html';">Change Settings</button>
-    <button onclick="window.location.href = 'upgradeuser.html';">Upgrade to PREMIUM!</button>
+<h1>Welcome Back Dave!</h1>
+<div class="box-6">
+    <table>
+        <tr>
+            <td><img src="images/userpic.jpg" alt="Profile photo" width="200" height="250"></td>
+            <td><h2>Dave Smith</h2><p></p><h3>Goals: Build Muscle</h3><p></p><h4>Current weight: 70kg</h4></td>
+        </tr>
+    </table>
+</div>
+<button onclick="window.location.href = 'usersettings.html';">Change Settings</button>
+<button onclick="window.location.href = 'upgradeuser.html';">Upgrade to PREMIUM!</button>
+<h2>This week's schedule:</h2>
+<table table-time="this week" border="1">
+        <tr>
+            <th colspan="2">Monday</th>
+            <th colspan="2">Tuesday</th>
+            <th colspan="2">Wednesday</th>
+            <th colspan="2">Thursday</th>
+            <th colspan="2">Friday</th>
+            <th colspan="2">Saturday</th>
+            <th colspan="2">Sunday</th>
+        </tr>
+
+        <tr>
+            <td table-info="header">Workout</td>
+            <td>Cardio</td>
+            <td table-info="header">Workout</td>
+            <td>Rest day</td>
+            <td table-info="header">Workout</td>
+            <td>Legs</td>
+            <td table-info="header">Workout</td>
+            <td>Abs</td>
+            <td table-info="header">Workout</td>
+            <td>Rest day</td>
+            <td table-info="header">Workout</td>
+            <td>Cardio</td>
+            <td table-info="header">Workout</td>
+            <td><a href="workout_page_01.html">Arms</a></td>
+        </tr>
+
+        <tr>
+            <td table-info="header">Calories</td>
+            <td>2700</td>
+            <td table-info="header">Calories</td>
+            <td>2500</td>
+            <td table-info="header">Calories</td>
+            <td>2800</td>
+            <td table-info="header">Calories</td>
+            <td>2800</td>
+            <td table-info="header">Calories</td>
+            <td>2500</td>
+            <td table-info="header">Calories</td>
+            <td>2700</td>
+            <td table-info="header">Calories</td>
+            <td>2800</td>
+        </tr>
+
+        <tr>
+            <td table-info="header">Breakfast</td>
+            <td>Oats</td>
+            <td table-info="header">Breakfast</td>
+            <td>Yoghurt</td>
+            <td table-info="header">Breakfast</td>
+            <td>Bacon & Eggs</td>
+            <td table-info="header">Breakfast</td>
+            <td>French Toast</td>
+            <td table-info="header">Breakfast</td>
+            <td>Fruit Salad</td>
+            <td table-info="header">Breakfast</td>
+            <td>Green Smoothie</td>
+            <td table-info="header">Breakfast</td>
+            <td>Oats</td>
+        </tr>
+
+        <tr>
+            <td table-info="header">Lunch</td>
+            <td>Quiche</td>
+            <td table-info="header">Lunch</td>
+            <td>Hamburger</td>
+            <td table-info="header">Lunch</td>
+            <td>Pumpkin Soup</td>
+            <td table-info="header">Lunch</td>
+            <td>Chicken Wrap</td>
+            <td table-info="header">Lunch</td>
+            <td>Pulled Pork Roll</td>
+            <td table-info="header">Lunch</td>
+            <td>Chicken Pesto Pasta</td>
+            <td table-info="header">Lunch</td>
+            <td>Fish & Chips</td>
+        </tr>
+        
+        <tr>
+            <td table-info="header">Dinner</td>
+            <td>Tandoori Chicken</td>
+            <td table-info="header">Dinner</td>
+            <td>Tomato Soup</td>
+            <td table-info="header">Dinner</td>
+            <td>Spaghetti Bolognese</td>
+            <td table-info="header">Dinner</td>
+            <td>Roast Lamb</td>
+            <td table-info="header">Dinner</td>
+            <td>Teriyaki Salmon Poke Bowl</td>
+            <td table-info="header">Dinner</td>
+            <td>Vegetarian Lasagna</td>
+            <td table-info="header">Dinner</td>
+            <td>Chicken Stir Fry</td>
+        </tr>
+    </table>
 </div>
 </body>
 </html>
