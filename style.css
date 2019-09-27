@@ -13,7 +13,7 @@ a:link {
 
 /* Style visited links */
 a:visited {
-    color: black;
+    color: #1a1a1a;
 }
 
 /* Style hovered links */
@@ -21,13 +21,15 @@ a:hover {
     color: #00c2c4;
 }
 
+
 /* Style the topnav-box-1 */
 .topnav-box-1 {
-
+    height: 10%;
 }
 
-/* Style the topnav-box-1 */
+/* Style the topnav-box-1 img */
 .topnav-box-1 img {
+    
     object-fit: cover;
 }
 
@@ -38,7 +40,8 @@ a:hover {
 
 /* Style the FoodFitFast logo */
 #ffflogo {
-    height: 20%;
+    height: 50;
+    width: 50;
 }
 
 /* Style the subnav-content-1 */
