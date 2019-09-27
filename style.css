@@ -31,8 +31,13 @@
     display: none;
 }
 
-/* Open subnav content on mouse hover over the subnav container */
-.subnav:hover .subnav-content {
+/* Open subnav-content-1 on mouse hover over the subnav container */
+.subnav:hover .subnav-content-1 {
+    display: block;
+}
+
+/* Open subnav-content-2 on mouse hover over the subnav-content-1 container */
+.subnav-content-1:hover .subnav-content-2 {
     display: block;
 }
 
