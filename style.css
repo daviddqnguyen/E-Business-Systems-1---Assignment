@@ -21,8 +21,13 @@
     color: black;
 }
 
-/* Style the subnav-content */
-.subnav-content {
+/* Style the subnav-content-1 */
+.subnav-content-1 {
+    display: none;
+}
+
+/* Style the subnav-content-2 */
+.subnav-content-2 {
     display: none;
 }
 
