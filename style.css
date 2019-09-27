@@ -5,20 +5,40 @@
     border-bottom: 1px solid #555;
 }
 
+/* Styling the links */
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style visited links */
+a:visited {
+    color: black;
+}
+
+/* Style hovered links */
+a:hover {
+    color: #00c2c4;
+}
+
+/* Style the topnav-box-1 */
+.topnav-box-1 {
+
+}
+
 /* Style the topnav-box-1 */
 .topnav-box-1 img {
     object-fit: cover;
 }
 
+/* Style the topnav search-container */
+.topnav .search-container {
+    float: right;
+}
+
 /* Style the FoodFitFast logo */
 #ffflogo {
     height: 20%;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #03fc5e;
-    color: black;
 }
 
 /* Style the subnav-content-1 */
@@ -39,10 +59,6 @@
 /* Open subnav-content-2 on mouse hover over the subnav-content-1 container */
 .subnav-content-1:hover .subnav-content-2 {
     display: block;
-}
-
-.topnav .search-container {
-    float: right;
 }
 
 /* Style the flexbox container */
@@ -155,6 +171,25 @@
     background-color: #ededed;
 }
 
+/* Style the buttons */
+button {
+    background-color: #3dff6a;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 15px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+/* Style hovered buttons */
+button:hover {
+    color: #00c2c4;
+}
+
+/* Hover behaviour on button */
+button:hover {
+    cursor: pointer;
+}
 
 /* Style the button tags of the account-box */
 .account-box button {
