@@ -148,6 +148,13 @@ a:hover {
     text-align: center;
 }
 
+/* Style the morning-exercise-box */
+.morning-exercise-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Style the img tag of box-3 */
 .box-3 img {
     display: block;
