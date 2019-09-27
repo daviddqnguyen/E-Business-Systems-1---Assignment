@@ -117,6 +117,22 @@ a:hover {
     vertical-align: top;
 }
 
+/* Style reviews table */
+.reviews {
+    background-color: #ededed;
+}
+
+/* Style reviews stars*/
+[content="star"] {
+    font-size: 32px;
+    background-color:  #8DC63F;
+}
+
+/* Style reviews td*/
+.reviews td {
+    font-size: 18px;
+} 
+
 /* Style the h1 tag of box-1 */
 .box-1 h1 {
     text-align: center;
