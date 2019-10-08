@@ -216,6 +216,15 @@ a:hover {
     margin-right: auto;
 }
 
+/* Style the box-10 container */
+.box-10 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+
 /* Style the buttons */
 button {
     background-color: #3dff6a;
