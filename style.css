@@ -190,6 +190,19 @@ a:hover {
     transform: scale(1.25);
 }
 
+/* Style the img tag of product-img-box */
+.product-img-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Zoom img tags of product-img-box */
+.product-img-box:hover img{
+    transform: scale(1.25);
+}
+
+
 /* Style the img tag of box-5 */
 .box-5 img {
     display: block;
