@@ -7,7 +7,8 @@ simpleCart({
         // Add image to cart contents table
         {view: function(item, column){
             return "<img src='" + item.get('image') + "' class='product_image'>";
-            }
+            },
+            attr: "image", label: "Product Image",
         }
     ]
 });
