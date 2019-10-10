@@ -11,5 +11,11 @@ simpleCart({
             attr: "image", label: "Product Image",
         }
     ]
+
+    checkout: {
+        type: "SendForm" ,
+        method: "POST", // Set to "GET" or "POST". Default is "POST".
+        url: "http://saturn.csit.rmit.edu.au/~"
+    }
 });
 
