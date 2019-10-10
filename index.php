@@ -118,8 +118,8 @@
                             to make meal and fitness tracking even easier, enforcing good habits.
                         </p>
                         <h3>Want to know more?</h3>
-                        <p>Click here to learn more <a href="about-us.html">about us</a>, and here to 
-                            browse the <a href="Product_page_01.html">products</a> and <a href="services.html">services</a> 
+                        <p>Click here to learn more <a href="about-us.php">about us</a>, and here to 
+                            browse the <a href="product_page_01.php">products</a> and <a href="services.php">services</a> 
                             we offer.
                         </p>
                     </td>
@@ -155,7 +155,7 @@
     <div class="footer">
         <footer>
             <p>Website developed by: <b>Kold Koffee</b></p>
-            <p><a href="contact-us.html">Contact Us</a></p>
+            <p><a href="contact-us.php">Contact Us</a></p>
             <p>&copy; 2019 FoodFitFast</p>
         </footer>
     </div>
