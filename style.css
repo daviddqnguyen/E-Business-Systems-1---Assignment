@@ -116,22 +116,40 @@ a:hover {
     font-size: 18px;
     vertical-align: top;
 }
+/* #######################EDITED#########################*/
 
 /* Style reviews table */
 .reviews {
-    background-color: #ededed;
+    background-color: white;
 }
 
 /* Style reviews stars*/
 [content="star"] {
     font-size: 32px;
     background-color:  #8DC63F;
+    color: white;
+}
+
+[content="review-name"] {
+    font-weight: normal;
 }
 
 /* Style reviews td*/
 .reviews td {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 20px;
+    background-color:  #8DC63F;
+    color: white;
+    line-height: 1.8;
 } 
+
+.reviews th {
+    width: 300px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* #######################EDITED#########################*/
 
 /* Style the h1 tag of box-1 */
 .box-1 h1 {
@@ -563,4 +581,54 @@ table {
     font-weight: normal;
 }
 
+/* ################### Extra styling for product page#####################*/
+
+.product-container img {
+    width: 100%;
+    padding: none;
+    float: center;
+}
+
+.product-container div{
+    border-top: none;
+    border-bottom: none;
+    padding: 25px;
+}
+
+.product-box-1 {
+    border: none;
+    padding: none;
+}
+
+.product-box-2 {
+    border: none;
+    background-color: #8DC63F;
+    padding: none;
+}
+
+.product-box-1 h2{
+    font-size: 36px;
+    color: #007236;
+    font-weight: bold;
+}
+
+.product-box-1 p{
+    font-size: 18px;
+    color: #007236;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.product-box-2 h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.product-box-2 p{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.6;
+}
 
