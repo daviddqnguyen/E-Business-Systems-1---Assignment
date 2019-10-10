@@ -632,3 +632,35 @@ table {
     line-height: 1.6;
 }
 
+/* Chat box position */
+.chat-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ################### Live chat box styling #####################*/
+
+/* Chat box */
+.box{
+    transition: height 1s ease-out;
+    width: 250px;
+    height: 0px;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+/* Chat box hover to open */
+.open:hover>.box{
+  height:400px;
+      transition: height 1s ease-out;
+}
+
+/* Chat box text on open */
+.open {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #1a1a1a;
+    background: #3dff6a;
+    color: #1a1a1a;
+}
