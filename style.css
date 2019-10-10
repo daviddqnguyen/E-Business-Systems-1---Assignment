@@ -238,6 +238,11 @@ a:hover {
     width: 50%;
 }
 
+/* Style the box-11 container */
+.box-11 img {
+    background-color: #3dff6a;
+}
+
 /* Style the buttons */
 button {
     background-color: #3dff6a;
