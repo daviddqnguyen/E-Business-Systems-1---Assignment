@@ -252,8 +252,8 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50%;
-    width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Style the box-11 container */
