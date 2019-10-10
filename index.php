@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts/simplecartjs/simpleCart.js"></script>
+    <script src="scripts/simplecartjs-config.js"></script>
+    <title>Get Fit, Get Healthy - FoodFitFast</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <?php include('scripts/login.php'); ?>
+    <div class="topnav">
+        <div class="topnav-box-1">
+            <a href="index.php"><img id="ffflogo" src="images/FFF-logo-resized.jpg" alt="FoodFitFastLogo"></a>
+        </div>
+        <div class="topnav-box-2">
+            <a href="index.php"><img src="images/home.png" alt="Home" style="width:96px;height:96px;border:0;"></a></button>
+        </div>
+        <div class="topnav-box-3">
+            <a href="about-us.php"><img src="images/about.png" alt="About" style="width:96px;height:96px;border:0;"></a>
+        </div>
+        <div class="subnav">
+            <a href="workout_page_01.php"><img src="images/workout.png" alt="Profile" style="width:96px;height:96px;border:0;"></a> 
+                <div class="subnav-content-1">
+                    <button class="subnavbtn"><a href="product_page_01.php">Product</a></button>
+                    <div class="subnav-content-2">
+                        <button class="subnavbtn"><a href="services.php">Service</a></button>
+                    </div>
+                </div>
+        </div>  
+        <div class="topnav-box-4">
+            <a href="order.php"><img src="images/order.png" alt="Order" style="width:96px;height:96px;border:0;"></a>  
+        </div>
+        <div class="topnav-box-5">
+            <a href="calendar.php"><img src="images/calendar.png" alt="Calendar" style="width:96px;height:96px;border:0;"></a> 
+        </div>
+        <div class="topnav-box-6">
+            <a href="userprofile.php"><img src="images/profile.png" alt="Profile" style="width:96px;height:96px;border:0;"></a>
+        </div>
+        <div class="login-box">
+            <button type="button" onclick="window.location='login.php'">Login</button>
+        </div>
+        <div class="signup-box"> 
+            <button type="button" onclick="window.location='sign_up.php'">Sign Up</button> 
+        </div>
+        <div class="search-box">
+            <form action="/action_page.php">
+                <input type="text"  placeholder="Search..." name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="cart-box">
+            <button type="button"><a href="cart.php">View Cart (<span class="simpleCart_quantity"></span> items)</a></button> 
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="box-1">
+            <h1>Eat Well The Easy Way</h1>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/coupleCooking.jpeg" style="width:100%">
+          <div class="text">Eat Fresh</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/resizedGirlStretching.jpg" style="width:100%">
+          <div class="text">Live Well</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/resziedSalad.jpg" style="width:100%">
+          <div class="text">Enjoy Life</div>
+        </div>
+    </div>
+    <br>
+    <div class="dot-container">
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+    </div>
+    
+    <div class="index-container">
+        <div class="index-box">
+            <table>
+                <tr>
+                    <td><img src="images/morning-exercise.jpg" alt="Morning Exercise"></td>
+                    <td rowspan="2"><h3>Reshape your life!<h3>
+                        <p>At FoodFitFast, we offer an integrated online health and fitness 
+                             solution so that you can smash your ideal body weight, health
+                            and fitness goals!
+                        </p>
+                        <p>With a range of fitness, health and eating programs 
+                            specifically tailored to each client’s individual goals and lifestyle, our program
+                            is inclusive for everybody.
+                            We are committed to providing our clients with the finest tools and techniques 
+                            to help them achieve their weight, health and fitness goals.
+                        </p>
+                        <h3>Supporting local food merchants</h3>
+                        <p>We go beyond simply recommending meals by connecting you with local food 
+                            merchants that provide fresh, tasty, and nutritious meals. We have included detailed 
+                            and up to date dietary information on snacks, meals, and drinks from various restaurants 
+                            in your local area. Clients can purchase these items 
+                            through our partnered third-party delivery services.
+                        </p>
+                        <h3>Live well, feel well</h3>
+                        <p>The FFF program isn't simply about shedding the kg. It's about living a 
+                            healthy lifestyle and feeling good in the process. We want you to develop practices
+                            that become part of your regular routine. Our calendar feature helps you set personal goals 
+                            to make meal and fitness tracking even easier, enforcing good habits.
+                        </p>
+                        <h3>Want to know more?</h3>
+                        <p>Click here to learn more <a href="about-us.html">about us</a>, and here to 
+                            browse the <a href="Product_page_01.html">products</a> and <a href="services.html">services</a> 
+                            we offer.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/mealContainer.jpeg" alt="Fresh Meals"></td>
+                </tr>
+            </table>         
+        </div>
+    </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <div class="footer">
+        <footer>
+            <p>Website developed by: <b>Kold Koffee</b></p>
+            <p><a href="contact-us.html">Contact Us</a></p>
+            <p>&copy; 2019 FoodFitFast</p>
+        </footer>
+    </div>
+</body>
+</html>
