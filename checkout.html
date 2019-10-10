@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts/simplecartjs/simpleCart.js"></script>
+    <script src="scripts/simplecartjs-config.js"></script>
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="topnav">
+        <div class="topnav-box-1">
+            <a href="index.html"><img id="ffflogo" src="images/FFF-logo-resized.jpg" alt="FoodFitFastLogo"></a>
+        </div>
+        <div class="topnav-box-2">
+            <a href="index.html"><img src="images/home.png" alt="Home" style="width:96px;height:96px;border:0;"></a></button>
+        </div>
+        <div class="topnav-box-3">
+            <a href="about-us.html"><img src="images/about.png" alt="About" style="width:96px;height:96px;border:0;"></a>
+        </div>
+        <div class="subnav">
+            <a href="workout_page_01.html"><img src="images/workout.png" alt="Profile" style="width:96px;height:96px;border:0;"></a> 
+                <div class="subnav-content-1">
+                    <button class="subnavbtn"><a href="product_page_01.html">Product</a></button>
+                    <div class="subnav-content-2">
+                        <button class="subnavbtn"><a href="services.html">Service</a></button>
+                    </div>
+                </div>
+        </div>  
+        <div class="topnav-box-4">
+            <a href="order.html"><img src="images/order.png" alt="Order" style="width:96px;height:96px;border:0;"></a>  
+        </div>
+        <div class="topnav-box-5">
+            <a href="calendar.html"><img src="images/calendar.png" alt="Calendar" style="width:96px;height:96px;border:0;"></a> 
+        </div>
+        <div class="topnav-box-6">
+            <a href="userprofile.html"><img src="images/profile.png" alt="Profile" style="width:96px;height:96px;border:0;"></a>
+        </div>
+        <div class="login-box">
+            <button type="button" onclick="window.location='login.html'">Login</button>
+        </div>
+        <div class="signup-box"> 
+            <button type="button" onclick="window.location='sign_up.html'">Sign Up</button> 
+        </div>
+        <div class="search-box">
+            <form action="/action_page.php">
+                <input type="text"  placeholder="Search..." name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="cart-box">
+            <button type="button"><a href="cart.html">View Cart (<span class="simpleCart_quantity"></span> items)</a></button> 
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="box-1">
+            <h1>Checkout</h1>
+        </div>
+        <div class="checkout-form">
+            <form action="" method="post">
+                <h2>Full Name and Contact Details</h2>
+
+                <p>
+                    <label for="fname">First Name</label><br />
+                    <input type="text" name="firstname" id="fname" /><br />
+                </p>
+                <p>
+                    <label for="lname">Last Name</label><br />
+                    <input type="text" name="lastname" id="lname" /><br /> 
+                </p>
+                <p>
+                    <label for="phone_number">Phone Number</label><br />
+                    <input type="text" name="phone" id="phone_number" /><br />
+                </p>
+                <p>
+                    <label for="email_address">Email Address</label><br />
+                    <input type="email" name="email" id="email_address" /><br />
+                </p>
+
+                <h2>Delivery Address</h2>
+                <p>
+                    <label for="address_street_1">Street Address</label><br />
+                    <input type="text" name="street1" id="address_street_1" /><br />
+                </p>
+                <p>
+                    <label for="address_street_2">Street Address Line 2</label><br />
+                    <input type="text" name="street2" id="address_street_2" /><br />
+                </p>
+                <p>
+                    <label for="address_city">City</label><br />
+                    <input type="text" name="city" id="address_city" /><br />
+                </p>
+                <p>
+                    <label for="address_state_province">State/Province</label><br />
+                    <input type="text" name="state_province" id="address_state_province" /><br />
+                </p>
+                <p>
+                    <label for="postal_code">Postal/Zip Code</label><br />
+                    <input type="text" name="postcode" id="postal_code" /><br />
+                </p>
+                <p>
+                    <label for="country">Country</label><br />
+                    <input type="text" name="country" id="country" /><br />
+                </p>
+                <h2>Credit Card Details</h2>
+                <p>
+                    <input type="radio" id="cc_mastercard" name="cc_type" value="mastercard" />
+                    <label for="cc_mastercard">Mastercard</label>
+                    <br />
+
+                    <input type="radio" id="cc_visa" name="cc_type" value="visa" />
+                    <label for="cc_visa">Visa</label>
+                    <br />
+
+                    <input type="radio" id="cc_amex" name="cc_type" value="amex" />
+                    <label for="cc_amex">American Express</label>
+                </p>
+                <p>
+                    <label for="credit_card_name">Name on Card</label><br />
+                    <input type="text" name="ccname" id="credit_card_name" /><br />
+                </p>
+                <p>
+                    <label for="credit_card_number">Card Number</label><br />
+                    <input type="text" name="ccnumber" id="credit_card_number" /><br />
+                </p>
+                <p>
+                    <label for="credit_card_number">Security Code</label><br />
+                    <input type="text" name="ccsecuritycode" id="credit_card_security_code" /><br />
+                </p>
+                <!-- Checkout -->
+                <div align="center">
+                    <a href="javascript:;" class="simpleCart_checkout">Confirm and Pay</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <p>Website developed by: <b>Kold Koffee</b></p>
+            <p><a href="contact-us.html">Contact Us</a></p>
+            <p>&copy; 2019 FoodFitFast</p>
+        </footer>
+    </div>
+</body>
+</html>
