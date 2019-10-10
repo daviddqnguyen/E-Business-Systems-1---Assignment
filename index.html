@@ -56,16 +56,98 @@
         <div class="box-1">
             <h1>Eat Well The Easy Way</h1>
         </div>
-        <div class="box-2">
-            <p>At FoodFitFast, we offer an integrated online health and fitness 
-             solution so that you can smash your ideal body weight, health
-            and fitness goals!
-            </p>
-        </div>
-        <div class="morning-exercise-box">
-            <img id="morningexercise" src="images/morning-exercise.jpg" alt="Morning Exercise">
-        </div> 
     </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/coupleCooking.jpeg" style="width:100%">
+          <div class="text">Eat Fresh</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/resizedGirlStretching.jpg" style="width:100%">
+          <div class="text">Live Well</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/resziedSalad.jpg" style="width:100%">
+          <div class="text">Enjoy Life</div>
+        </div>
+    </div>
+    <br>
+    <div class="dot-container">
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+    </div>
+    
+    <div class="index-container">
+        <div class="index-box">
+            <table>
+                <tr>
+                    <td><img src="images/morning-exercise.jpg" alt="Morning Exercise"></td>
+                    <td rowspan="2"><h3>Reshape your life!<h3>
+                        <p>At FoodFitFast, we offer an integrated online health and fitness 
+                             solution so that you can smash your ideal body weight, health
+                            and fitness goals!
+                        </p>
+                        <p>With a range of fitness, health and eating programs 
+                            specifically tailored to each client’s individual goals and lifestyle, our program
+                            is inclusive for everybody.
+                            We are committed to providing our clients with the finest tools and techniques 
+                            to help them achieve their weight, health and fitness goals.
+                        </p>
+                        <h3>Supporting local food merchants</h3>
+                        <p>We go beyond simply recommending meals by connecting you with local food 
+                            merchants that provide fresh, tasty, and nutritious meals. We have included detailed 
+                            and up to date dietary information on snacks, meals, and drinks from various restaurants 
+                            in your local area. Clients can purchase these items 
+                            through our partnered third-party delivery services.
+                        </p>
+                        <h3>Live well, feel well</h3>
+                        <p>The FFF program isn't simply about shedding the kg. It's about living a 
+                            healthy lifestyle and feeling good in the process. We want you to develop practices
+                            that become part of your regular routine. Our calendar feature helps you set personal goals 
+                            to make meal and fitness tracking even easier, enforcing good habits.
+                        </p>
+                        <h3>Want to know more?</h3>
+                        <p>Click here to learn more <a href="about-us.html">about us</a>, and here to 
+                            browse the <a href="Product_page_01.html">products</a> and <a href="services.html">services</a> 
+                            we offer.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/mealContainer.jpeg" alt="Fresh Meals"></td>
+                </tr>
+            </table>         
+        </div>
+    </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
     <div class="footer">
         <footer>
             <p>Website developed by: <b>Kold Koffee</b></p>
