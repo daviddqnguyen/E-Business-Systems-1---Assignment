@@ -56,7 +56,10 @@
             <button type="button"><a href="cart.php">View Cart (<span class="simpleCart_quantity"></span> items)</a></button> 
         </div>
     </div>
-
+    <div align="center">
+        <h1>Thank you for ordering with FoodFitFast!</h1>
+        <p>We hope that you consider ordering from us again in future.</p>
+    </div>
     <div align="center">
     <!-- Display Totals Table -->
     <table id="cart-table" border=1 cellspacing=0>
