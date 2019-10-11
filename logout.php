@@ -60,13 +60,12 @@
         </div>
     </div>
     <h1>Logout</h1>
+    <p>You have now logged out</p>
     <?php
         session_start();
         $_SESSION = array();
         session_destroy();
     ?>
-
-    <a href="login-test.php">Login</a>
     <div class="footer">
         <footer>
             <p>Website developed by: <b>Kold Koffee</b></p>
