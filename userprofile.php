@@ -55,6 +55,9 @@
         <div class="cart-box">
             <button type="button"><a href="cart.php">View Cart (<span class="simpleCart_quantity"></span> items)</a></button> 
         </div>
+        <div class="logout-box">
+            <button type="button" onclick="window.location='scripts/logout.php'">Logout</button>
+        </div>
     </div>
 <div class="page-wrapper">
     <h1>Welcome Back Dave!</h1>
