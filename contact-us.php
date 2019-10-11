@@ -63,11 +63,12 @@
         </div>      
     </div>
     <div class="box-2">
-        <p>Feel free to get in touch by phone, email, or live chat with any queries or concerns you may have:
-        </p>
-        <p>Phone - <a href="tel: (03) 9123 4567" style="color: #1a1a1a; text-decoration: underline">(03) 9123 4567</a>
-        </p>
-        <p>Email - <a href = "mailto: support@foodfitfast.com.au" style="color: #1a1a1a; text-decoration: underline">support@foodfitfast.com.au</a></p>
+        <h3>Feel free to get in touch by phone, email, or live chat with any queries or concerns you may have:
+        </h3>
+        <h2>Phone - <a href="tel: (03) 9123 4567" style="color: #8DC63F; text-decoration: underline">(03) 9123 4567</a>
+        </h2>
+        <h2>Email - <a href = "mailto: support@foodfitfast.com.au" style="color: #8DC63F; text-decoration: underline">support@foodfitfast.com.au</a>
+        </h2>
     </div>
     <div class="chat-box">
         <div class="open">Live Chat
@@ -85,9 +86,9 @@
             Message:
             <textarea name="message" cols="30" rows="5"></textarea>
             <br>
-            <button onclick="Submit()">Send Message</button>
+            <button onclick="submit()">Send Message</button>
             <script>
-                function Submit() {
+                function submit() {
                   confirm("Message sent! We will get back to you ASAP");
                 }
                 </script>          
