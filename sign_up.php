@@ -41,10 +41,10 @@
             <a href="userprofile.php"><img src="images/profile.png" alt="Profile" style="width:96px;height:96px;border:0;"></a>
         </div>
         <div class="login-box">
-            <button type="button">Login</button>
+            <button type="button" onclick="window.location='login.php'">Login</button>
         </div>
         <div class="signup-box">
-            <button type="button">Sign Up</button> 
+            <button type="button" onclick="window.location='sign_up.php'">Sign Up</button> 
         </div>
         <div class="search-box">
             <form action="/action_page.php">
