@@ -12,13 +12,13 @@
         }
     }
 
-    if (! (isset($_SESSION['logged_in'])) && $_SESSION['logged_in'] == 'true' ) {
+    if (! (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true' ) ) {
         echo '
         <html>
             <head>
                 <title>Login form</title>
             </head>
-            <body>
+            <body>  
                 <form action="' . $_SERVER['PHP_SELF'] . '"method="POST">
                 Username: <input type="text"
                 name="username" />
