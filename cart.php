@@ -75,10 +75,17 @@
     <div align="center">
         <!-- Checkout -->
         <a href="checkout.php"><img src="images/checkout.png" alt="Checkout" style="width:96px;height:96px;border:0;"></a>
-        
-
+    </div>
+    <div align="center">
         <!-- Empty the cart -->
         <button><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></button>
+    </div>
+    <div class="footer">
+        <footer>
+            <p>Website developed by: <b>Kold Koffee</b></p>
+            <p><a href="contact-us.php">Contact Us</a></p>
+            <p>&copy; 2019 FoodFitFast</p>
+        </footer>
     </div>
 
 </body>
