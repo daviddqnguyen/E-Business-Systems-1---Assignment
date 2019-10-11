@@ -57,6 +57,7 @@
         </div>
     </div>
 
+    <div align="center">
     <!-- Display Totals Table -->
     <table id="cart-table" border=1 cellspacing=0>
         
@@ -72,6 +73,7 @@
             <th><span class="simpleCart_grandTotal"></span></th>
         </tr>
     </table>
+    </div>
     <div align="center">
         <!-- Checkout -->
         <a href="checkout.php"><img src="images/checkout.png" alt="Checkout" style="width:96px;height:96px;border:0;"></a>
