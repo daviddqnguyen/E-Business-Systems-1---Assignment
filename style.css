@@ -679,3 +679,90 @@ table {
     background: #3dff6a;
     color: #1a1a1a;
 }
+
+/* ################### Extra styling for About page#####################*/
+
+/* Style the box-8 container */
+.about-box-2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-us-container img {
+    width: 100%;
+    padding: none;
+    float: center;
+}
+
+.about-us-container div{
+    border-top: none;
+    border-bottom: none;
+    padding: 25px;
+}
+
+.about-box-1 {
+    border: none;
+    padding: none;
+}
+
+.about-box-1 h2{
+    font-size: 36px;
+    color: #007236;
+    font-weight: bold;
+}
+
+.about-box-1 p{
+    font-size: 18px;
+    color: #007236;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.about-box-2 {
+    border: none;
+    background-color: #8DC63F;
+    padding: none;
+}
+
+.about-box-2 h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.about-box-2 p{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.about-box-2 table {
+    background-color: #ededed;
+    table-layout: fixed;
+    width: 1190px;
+}
+
+.about-box-2 table td{
+    table-layout: fixed;
+    width: 170px;
+    height: 120px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+/* Styling the beachRunners img */
+#beachRunners {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling the deliveryFoodBox img */
+#deliveryFoodBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
