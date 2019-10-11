@@ -766,3 +766,129 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* ################### Extra styling for Workout Page#####################*/
+
+.workout-container img {
+    width: 100%;
+    padding: none;
+    float: center;
+}
+
+.workout-container div{
+    border-top: none;
+    border-bottom: none;
+    padding: 25px;
+}
+
+.workout-box-1 {
+    border: none;
+    padding: none;
+}
+
+.workout-box-1 h2{
+    font-size: 36px;
+    color: #007236;
+    font-weight: bold;
+}
+
+.workout-box-1 p{
+    font-size: 18px;
+    color: #007236;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.workout-box-2 {
+    border: none;
+    background-color: #8DC63F;
+    padding: none;
+}
+
+.workout-box-2 h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.workout-box-2 p{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+/* Styling the workoutGroup img */
+#workoutGroup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling the warmupStretch img */
+#warmupStretch {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.workout-container a {
+    color: #007236;
+    font-weight: bold;
+}
+
+/* Style workout-box-1 table */
+.workout-box-1 table {
+    background-color: white;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Style workout-box-1 table */
+.workout-box-1 table td{
+    table-layout: fixed;
+    width: 170px;
+    height: 120px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+/* Special style for workout-box-special */
+.workout-box-special {
+    border: none;
+    background-color: #8DC63F;
+    padding: none;
+}
+
+
+.workout-box-special h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.workout-box-special p{
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Style workout-box-1 table */
+.workout-box-special table {
+    table-layout: fixed;
+}
+
+/* Style workout-box-1 table */
+.workout-box-special table td{
+    table-layout: fixed;
+    width: 250px;
+    height: 38px;
+    font-size: 18px;
+    vertical-align: top;
+    color: white;
+}
