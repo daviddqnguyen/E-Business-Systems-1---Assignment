@@ -57,20 +57,18 @@
             <button type="button"><a href="cart.php">View Cart (<span class="simpleCart_quantity"></span> items)</a></button> 
         </div>
     </div>
-    <div class="container-1">
-        <div class="box-1">
-            <h1>Who We Are</h1> 
-        </div>
-        <div class="box-2">
-            <p><b>"We at FoodFitFast strive to provide the best tools and techniques
-                to help people achieve their weight, health and fitness goals"</b>
+    <div class="about-us-container">
+        <div class="about-box-1">
+            <h2>Who We Are</h2>
+            <p>"We at FoodFitFast strive to provide the best tools and techniques
+                to help people achieve their weight, health and fitness goals"
             </p>
         </div>
-        <div class="box-3">
-            <h2>Our purpose
-            </h2>
-        </div>
-        <div class="box-4">
+
+        <img id="beachRunners" src="images/beachRunners.jpeg" alt="Food Delivery">
+
+        <div class="about-box-2">
+            <h2>Our purpose</h2>
             <p>Founded in 2019, FoodFitFast is our ambition to improve the eating 
                 and lifestyle practices of Australians nationwide. 
                 It is our commitment to provide a service that is easily accessible 
@@ -84,10 +82,9 @@
                 regardless of their budget and current health condition.
             </p>
         </div>
-        <div class="box-5">
+
+        <div class="about-box-1">
             <h2>How it works</h2>
-        </div>
-        <div class="box-6">
             <p>The FFF program offers highly customisable, dynamic, and personalised meal plans. 
                 These are created for each client based on their individual health and wellness goals, 
                 whether it be for weight loss, muscle gain, or simply maintaining a balanced diet. 
@@ -101,6 +98,9 @@
                 in your local area. Our clients are provided with the option to purchase these items 
                 through our partnered third-party delivery services.
             </p>
+
+            <img id="deliveryFoodBox" src="images/deliveryFoodBox.jpeg" alt="Food Delivery">
+
             <p>Fitness plans are another beneficial service we provide for those wishing to incorporate 
                 exercise in their weekly routine. These can be adjusted to suit every fitness level from 
                 very beginner to advanced. We provide a range of exercises at varying intensities for you 
@@ -113,26 +113,17 @@
                 program, we hope our clients will feel motivated and inspired to reach their full potential.
             </p>
         </div>
-        <div class="box-7">
+
+        <div class="about-box-2">
             <h2>Why use FFF?</h2>
-        </div>
-        <div class="box-8">
-            <table>
-                <tr>
-                    <td><img src="images/shopping-cart-icon.png" alt="Integrated Solution" width="250" height="250"></td>
-                    <td>We offer an integrated solution with technology, programs, products and professional advice.
-                        The services we provide are a "one-stop-shop" for all you health and wellbeing needs.</td>
-                </tr>
-                <tr>
-                    <td><img src="images/customization-icon.png" alt="Customised Solution" width="250" height="250"></td>
-                    <td>We offer a customised solution, tailored to individual needs and lifestyles. This allows our 
-                        product to be accessible to all.</td>
-                </tr>
-                <tr>
-                    <td><img src="images/money-icon.png" alt="Value for money" width="250" height="250"></td>
-                    <td>Our different subscription levels cater for members on all budgets.</td>
-                </tr>
-            </table>
+            <p>1. We offer an integrated solution with technology, programs, products and professional advice.
+                The services we provide are a "one-stop-shop" for all you health and wellbeing needs.
+            </p>
+            <p>2. We offer a customised solution, tailored to individual needs and lifestyles. This allows our 
+                product to be accessible to all.
+            </p>
+            <p>3. Our different subscription levels cater for members on all budgets.
+            </p>
         </div>     
     </div>
     <div class="footer">
