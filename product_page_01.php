@@ -138,6 +138,7 @@
         <div class="product-img-box">
         </div>
         <div class="simpleCart_shelfItem">
+            <h2 class="simpleCart_name">FFF program</h2>
             <p>
                 <span class="item_price">$100.00</span><br />
                 <input type="text" value="1" class="item_quantity"/><br />

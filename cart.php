@@ -64,6 +64,18 @@
     <!-- Display Totals Table -->
     <table id="cart-table" border=1 cellspacing=0>
         
+        <!-- Display product name -->
+        <tr>
+            <td>Product Name</td>
+            <td><div class="simpleCart_name"></div></td>
+        </tr>
+
+        <!-- Display product quantity -->
+        <tr>
+            <td>Product Quantity</td>
+            <td><div class="simpleCart_quantity"></div></td>
+        </tr>
+
         <!-- Display sub-total -->
         <tr>
             <td>Sub-Total</td>
