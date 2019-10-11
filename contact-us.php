@@ -59,16 +59,37 @@
     </div>
     <div class="container-1">
         <div class="box-1">
-            <h1>Contact Us</h1> 
+            <h1>Contact Us</h1>
         </div>      
     </div>
     <div class="box-2">
-        <p>Feel free to get in touch by phone or email with any queries or concerns you may have:
+        <p>Feel free to get in touch by phone, email, or live chat with any queries or concerns you may have:
         </p>
-        <p>Phone - <a href="tel: (03) 9123 4567">(03) 9123 4567</a>
+        <p>Phone - <a href="tel: (03) 9123 4567" style="color: #1a1a1a; text-decoration: underline">(03) 9123 4567</a>
         </p>
-        <p>Email - <a href="mailto: support@foodfitfast.com.au">support@foodfitfast.com.au</a></p>
+        <p>Email - <a href = "mailto: support@foodfitfast.com.au" style="color: #1a1a1a; text-decoration: underline">support@foodfitfast.com.au</a></p>
     </div>
+    <div class="chat-box">
+        <div class="open">Live Chat
+        <div class="box">
+          <br>
+          Send us a message and we will get back to you as soon as possible!
+          <br>
+          <form>
+            Name:
+            <input type="text" name="name">
+            <br>
+            Email:
+            <input type="text" name="email">
+            <br>
+            Message:
+            <textarea name="message" cols="30" rows="5"></textarea>
+            <br>
+            <input type="button" value="Submit">
+          </form>
+        </div>
+    </div>
+          </div>
     <div class="footer">
         <footer>
             <p>Website developed by: <b>Kold Koffee</b></p>
