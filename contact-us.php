@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <?php include('scripts/login.php'); ?>
+    <?php include('login.php'); ?>
     <div class="topnav">
         <div class="topnav-box-1">
             <a href="index.php"><img id="ffflogo" src="images/FFF-logo-resized.jpg" alt="FoodFitFastLogo"></a>
