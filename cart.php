@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <?php include('scripts/login.php'); ?>
     <div class="topnav">
         <div class="topnav-box-1">
             <a href="index.php"><img id="ffflogo" src="images/FFF-logo-resized.jpg" alt="FoodFitFastLogo"></a>
@@ -57,7 +58,7 @@
     </div>
 
     <!-- Display Totals Table -->
-    <table border=1 cellspacing=0>
+    <table id="cart-table" border=1 cellspacing=0>
         
         <!-- Display sub-total -->
         <tr>

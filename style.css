@@ -646,3 +646,7 @@ table {
     line-height: 1.6;
 }
 
+#cart-table {
+    margin: auto;
+}
+
