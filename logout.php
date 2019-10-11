@@ -60,7 +60,7 @@
         </div>
     </div>
     <h1>Logout</h1>
-    <p>You have now logged out</p>
+    <p>You have now logged out.</p>
     <?php
         session_start();
         $_SESSION = array();
