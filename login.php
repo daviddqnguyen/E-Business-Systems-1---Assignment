@@ -100,7 +100,7 @@
                                     </div>
                                     <div class="input-group-li">
                                         <label class="form-label-style">Password</label>
-                                        <input class="form-input-style" type="text" name="password" required>
+                                        <input class="form-input-style" type="password" name="password" required>
                                     </div>
                                 </div>
                             </div>
