@@ -85,7 +85,12 @@
             Message:
             <textarea name="message" cols="30" rows="5"></textarea>
             <br>
-            <input type="button" value="Submit">
+            <button onclick="Submit()">Send Message</button>
+            <script>
+                function Submit() {
+                  confirm("Message sent! We will get back to you ASAP");
+                }
+                </script>          
           </form>
         </div>
     </div>
